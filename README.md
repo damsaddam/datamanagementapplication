@@ -12,6 +12,7 @@ If you need an application to manage so much data, this application may be a sol
 - phpoffice/phpspreadsheet (https://packagist.org/packages/phpoffice/phpspreadsheet)
 - phpoffice/phpexcel (https://packagist.org/packages/phpoffice/phpexcel)
 - ckeditor/ckeditor (https://packagist.org/packages/ckeditor/ckeditor)
+- Select2 (https://select2.org/)
 
 ## Features
 - Login (with typing effect) and Logout.
@@ -25,7 +26,7 @@ If you need an application to manage so much data, this application may be a sol
 - Search data
 - Pagination
 - Total data
-- Select2 (https://select2.org/)
+- Select boxes
 - Relation data (https://drive.google.com/drive/folders/1WSk3glLpVHOQytHMYFCKSK8tre7hyL45?usp=sharing)
 - Take a look at this application screenshots (https://drive.google.com/drive/folders/108nv72xEnTns-UiO1je3eymOUDTvua7M?usp=sharing)
 
