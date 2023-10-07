@@ -25,12 +25,12 @@ If you need an application to manage so much data, this application may be a sol
 - Search data
 - Pagination
 - Total data
-- Select 2 jQuery
+- Select2 (https://select2.org/)
 - Relation data (https://drive.google.com/drive/folders/1WSk3glLpVHOQytHMYFCKSK8tre7hyL45?usp=sharing)
 - Take a look at this application screenshots (https://drive.google.com/drive/folders/108nv72xEnTns-UiO1je3eymOUDTvua7M?usp=sharing)
 
 ## Requirements
-- XAMPP v3.3.0 or higher
+- XAMPP
 
 ## How to Installation
 1. Clone my repository.
@@ -50,9 +50,6 @@ I'm a full-stack developer. Just call me "dam"
 ## 🛠 Skills
 1. Front-End Development
 2. Back-End Development
-3. Full Stack Development
+3. Full-Stack Development
 4. Web Development
-5. Writing
-6. Article Writing
-7. Proposal Writing
 
