@@ -254,11 +254,11 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="jenis_patologi">Jenis Patologi</label>
+                        <label for="jenis_patologi">Diagnosis Klinik</label>
                         <textarea name="jenis_patologi" id="jenis_patologi" class="form-control" required></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="diagnosis">Diagnosis Klinik</label>
+                        <label for="diagnosis">Hasil Pemeriksaan</label>
                         <textarea name="diagnosis" id="diagnosis" class="form-control" required></textarea>
                     </div>
                     <div class="form-group">

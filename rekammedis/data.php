@@ -247,8 +247,8 @@
                             <th>No. RM</th>
                             <th>Pasien</th>
                             <th>Dokter</th>
-                            <th>Jenis Patologi</th>
                             <th>Diagnosis Klinik</th>
+                            <th>Hasil Pemeriksaan</th>
                             <th>Hasil Pembayaran (Rp)</th>
                             <th><i class="bi bi-gear-wide-connected"></i></th>
                         </tr>
