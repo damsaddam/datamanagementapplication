@@ -12,10 +12,9 @@ if (isset($_POST['add'])) {
     $no_rm = trim(mysqli_real_escape_string($connect, $_POST['no_rm']));
     $id_pasien = trim(mysqli_real_escape_string($connect, $_POST['id_pasien']));
     $id_dokter = trim(mysqli_real_escape_string($connect, $_POST['id_dokter']));
-    $keluhan = trim(mysqli_real_escape_string($connect, $_POST['keluhan']));
+    $jenis_patologi = trim(mysqli_real_escape_string($connect, $_POST['jenis_patologi']));
     $diagnosis = trim(mysqli_real_escape_string($connect, $_POST['diagnosis']));
-    $tindakan = trim(mysqli_real_escape_string($connect, $_POST['tindakan']));
     $hasil_pembayaran = trim(mysqli_real_escape_string($connect, $_POST['hasil_pembayaran']));
-    mysqli_query($connect, "INSERT INTO rekam_medis (id_rm, tgl_periksa, no_rm, id_pasien, id_dokter, keluhan, diagnosis, tindakan, hasil_pembayaran) VALUES ('$uuid', '$tgl_periksa', '$no_rm', '$id_pasien', '$id_dokter', '$keluhan', '$diagnosis', '$tindakan', '$hasil_pembayaran')") or die(mysqli_error($connect));
+    mysqli_query($connect, "INSERT INTO rekam_medis (id_rm, tgl_periksa, no_rm, id_pasien, id_dokter, jenis_patologi, diagnosis, hasil_pembayaran) VALUES ('$uuid', '$tgl_periksa', '$no_rm', '$id_pasien', '$id_dokter', '$jenis_patologi', '$diagnosis', '$hasil_pembayaran')") or die(mysqli_error($connect));
     echo "<script>window.location='data.php';</script>";
 }

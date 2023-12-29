@@ -254,16 +254,12 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="keluhan">Keluhan</label>
-                        <textarea name="keluhan" id="keluhan" class="form-control" required></textarea>
+                        <label for="jenis_patologi">Jenis Patologi</label>
+                        <textarea name="jenis_patologi" id="jenis_patologi" class="form-control" required></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="diagnosis">Diagnosis</label>
+                        <label for="diagnosis">Diagnosis Klinik</label>
                         <textarea name="diagnosis" id="diagnosis" class="form-control" required></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="tindakan">Tindakan</label>
-                        <textarea name="tindakan" id="tindakan" class="form-control" required></textarea>
                     </div>
                     <div class="form-group">
                         <label for="hasil_pembayaran">Hasil Pembayaran (Rp)</label>
@@ -284,13 +280,10 @@
     <script>
         // Replace the <textarea id=""> with a CKEditor 4
         // instance, using default configuration.
-        CKEDITOR.replace('keluhan', {
+        CKEDITOR.replace('jenis_patologi', {
             uiColor: '#9CFF2E'
         });
         CKEDITOR.replace('diagnosis', {
-            uiColor: '#9CFF2E'
-        });
-        CKEDITOR.replace('tindakan', {
             uiColor: '#9CFF2E'
         });
     </script>

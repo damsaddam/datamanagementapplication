@@ -247,9 +247,8 @@
                             <th>No. RM</th>
                             <th>Pasien</th>
                             <th>Dokter</th>
-                            <th>Keluhan</th>
-                            <th>Diagnosis</th>
-                            <th>Tindakan</th>
+                            <th>Jenis Patologi</th>
+                            <th>Diagnosis Klinik</th>
                             <th>Hasil Pembayaran (Rp)</th>
                             <th><i class="bi bi-gear-wide-connected"></i></th>
                         </tr>
@@ -293,9 +292,8 @@
                                     <td><?= $data['no_rm']; ?></td>
                                     <td><?= $data['nama_pasien']; ?></td>
                                     <td><?= $data['nama_dokter']; ?></td>
-                                    <td><?= $data['keluhan']; ?></td>
+                                    <td><?= $data['jenis_patologi']; ?></td>
                                     <td><?= $data['diagnosis']; ?></td>
-                                    <td><?= $data['tindakan']; ?></td>
                                     <td><?= $data['hasil_pembayaran']; ?></td>
                                     <td class="center">
                                         <a href="delete.php?id=<?= $data['id_rm'] ?>" id="delete" data-toggle="tooltip" data-placement="top" title="Klik untuk delete data" onclick="return confirm('Apakah anda yakin ingin delete data ini?')"><i class="bi bi-trash"></i></a>
