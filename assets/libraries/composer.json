@@ -3,6 +3,6 @@
         "ramsey/uuid": "^4.7",
         "phpoffice/phpspreadsheet": "^1.28",
         "phpoffice/phpexcel": "^1.8",
-        "ckeditor/ckeditor": "^4.22"
+        "ckeditor/ckeditor": "^4.24"
     }
 }

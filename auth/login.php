@@ -13,7 +13,7 @@ if (isset($_SESSION['user'])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LOGIN - PRIMA UTAMA MEDIKA APP</title>
+    <title>LOGIN - OPNAME AMSKY APP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -23,7 +23,7 @@ if (isset($_SESSION['user'])) {
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Edu+SA+Beginner:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" href="../assets/img/hospital_image.png">
+    <link rel="icon" href="../assets/img/gudang.png">
     <style>
         body {
             background: #000428;
@@ -33,8 +33,6 @@ if (isset($_SESSION['user'])) {
             background: linear-gradient(to right, #004e92, #000428);
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             color: rgb(255, 255, 255);
-
-
         }
 
         .login-logo h1 {
@@ -44,7 +42,7 @@ if (isset($_SESSION['user'])) {
             font-size: 40px;
             margin-top: 2%;
             border-right: 2px solid whitesmoke;
-            width: 36%;
+            width: 30.5%;
             white-space: nowrap;
             overflow: hidden;
             letter-spacing: 1px;
@@ -124,11 +122,11 @@ if (isset($_SESSION['user'])) {
 <body>
     <div class="container-fluid">
         <div class="login-logo d-flex justify-content-center align-items-center">
-            <h1><b>Prima Utama Medika App</b></h1>
+            <h1><b>OPNAME AMSKY APP</b></h1>
         </div>
         <div class="content d-flex justify-content-center align-items-center">
             <div class="col-4">
-                <img src="../assets/img/login_image.png" class="img-fluid" alt="A doctor does a checking">
+                <img src="../assets/img/loginimage.png" class="img-fluid" alt="A doctor does a checking">
             </div>
             <div class="col-4">
                 <!-- $_POST['login'], $user, and $pass must be the same as the input name on form-->

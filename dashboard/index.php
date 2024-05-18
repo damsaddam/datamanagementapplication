@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-    <title>Prima Utama Medika App</title>
+    <title>OPNAME AMSKY APP</title>
     <style>
         body {
             background: #000428;
@@ -101,7 +101,7 @@
     </div>
     <div class="row content">
         <div class="col-12">
-            <p>Selamat datang <?= $_SESSION['user']; ?> di <b>Prima Utama Medika App</b>. Mohon isi data dengan teliti sesuai dengan data yang diberikan oleh klinik dan para dokter. Lakukan double check, agar menghindari kesalahan dalam memasukkan data. Bila sudah selesai menggunakan aplikasi, mohon <b><mark>logout</mark></b> terlebih dahulu, untuk menghindari pihak yang tidak bertanggung jawab mengakses aplikasi ini atau hal yang tidak diinginkan terjadi. Terimakasih. Semoga harimu menyenangkan <?= $_SESSION['user']; ?>.</p>
+            <p>Selamat datang <b> <?= $_SESSION['user']; ?> </b>di OPNAME AMSKY APP. Mohon isi data dengan teliti, lakukan double check, agar menghindari kesalahan dalam memasukkan data. Bila sudah selesai menggunakan aplikasi, mohon <b>logout</b> terlebih dahulu, untuk menghindari pihak yang tidak bertanggung jawab mengakses aplikasi ini atau hal yang tidak diinginkan terjadi. Terimakasih. Semoga harimu menyenangkan!</p>
         </div>
         <div class="scroll-menu">
             <a href="#" class="scroll" data-toggle="tooltip" data-placement="right" title="Back to the top"></a>
